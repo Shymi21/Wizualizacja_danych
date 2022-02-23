@@ -1,3 +1,41 @@
 import sys
+import math
 
 print(sys.version)
+
+
+a= "inżynierja\nsystemów\ninformatycznych"
+print(a)
+print(type(a))
+
+b=5
+print(b)
+print(type(b))
+
+c=5.4
+print(c)
+print(type(c))
+
+d=2+3j
+print(d)
+print(type(d))
+
+e="isi"
+f=" grupa 3"
+print(e+f)
+
+g=7
+h=2
+print(g//h)
+print((2/4)**h)
+
+print(math.pow(2/4,h))
+
+h+=1
+print(h)
+
+i=5
+j=3
+k=i-j
+
+print("wynik działania %(z1)d - %(z2)d = %(z3)d" %{"z1":a, "z2":b, "z3":c})
