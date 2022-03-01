@@ -3,10 +3,10 @@ import math
 
 #zad 1
 
-# a=5
-# b="czesc"
-# c=2.14
-# d=2+3j
+# a=3
+# b="witam"
+# c=5.15
+# d=1+2j
 # print(type(a),a)
 # print(type(b),b)
 # print(type(c),c)
@@ -48,31 +48,31 @@ import math
 
 #zad 5
 
-# imie  = "ADAM"
-# nazwisko= "KOWALSKI"
+# imie  = "SZYMON"
+# nazwisko= "SOKOLNIK"
 # a = imie.capitalize()
 # b = nazwisko.capitalize()
 # print(a,b)
 
 #zad 6
-# txt = "la la la la la"
+# txt = "la la la la la la la"
 # a = txt.count("la")
 # print(a)
 
 #zad 7
 
-# imie = "Bartek"
+# imie = "Szymon"
 # print(imie[1],imie[5])
 
 #zad 8
 
-# cos = "ide na zakupy"
+# cos = "ide do kina"
 # x = cos.split()
 # print(x)
 
 #zad 9
 
-# string = "co jest"
+# string = "piekny dzien"
 # float = 3.14532
 # szesnatkowy = hex(23)
 #
