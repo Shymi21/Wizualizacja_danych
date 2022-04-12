@@ -1,0 +1,50 @@
+#zadanie 1
+import numpy as np
+a=np.arange(4,84,4)
+print(a)
+
+#zadanie 2
+b=[7.2,3.6,4.1,7.2,1.5]
+c=np.array(b, dtype="int32")
+print(c)
+
+#zadanie 3
+def tablica(n):
+    x=np.zeros((pow(2,n),pow(2,n)))
+    return x
+print(tablica(5))
+
+#zadanie 4
+def generuj(liczba, rozmiar):
+    wynik=np.logspace(1,rozmiar,num=rozmiar,base=liczba, dtype="int32")
+    return wynik
+print(generuj(2,4))
+
+#zadanie 5
+def wektor(dlugosc):
+    a=np.arange(dlugosc)
+    odwrotnosc=a[::-1]
+    macierz=np.diag([a for a in odwrotnosc],2)
+    return macierz
+print(wektor(3))
+
+#zadanie 6
+wykreslanka=np.array([["c","o","s","t","a","m"],["j","a","k","t","a","m"],["k","t","o","s","t","a","m"]])
+print(wykreslanka)
+
+#zadanie 7
+def macierz(n):
+    x=np.zeros((n,n))
+    for i in range(0,n):
+        for j in range(0,n):
+            if(j>i):
+                x[i,j]=abs(2*(j-i+1))
+            else:
+                x[i,j]=abs(2*(i-j+1))
+
+    return x
+print(macierz(3))
+
+#zadanie 9
+macierz2=np.array()
+print(macierz2)
